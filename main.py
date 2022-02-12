@@ -61,8 +61,4 @@ def randomDataset():
     for i in range(node_count):
         data[nodes[i]] = genDict(node_connection, all_values)
 
-
-for i in range(100000):
-    print(i)
-    randomDataset()
-    print("---------")
+    return data
